@@ -1,4 +1,4 @@
-## iOS 에서 Camera를 이용한 QR Code scanning prototyping 
+## Realtime  QRCode scanner for ios
 
 
 ### 기능 목표  
