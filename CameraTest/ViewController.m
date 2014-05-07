@@ -37,7 +37,7 @@
     self.session.sessionPreset = AVCaptureSessionPresetHigh;
 }
 
-#pragma AVMeta
+#pragma AVCaptureMetadataOutputObjectsDelegate
 
 - (void)captureOutput:(AVCaptureOutput *)captureOutput didOutputMetadataObjects:(NSArray *)metadataObjects fromConnection:(AVCaptureConnection *)connection{
     [metadataObjects enumerateObjectsUsingBlock:^(AVMetadataObject *obj, NSUInteger idx, BOOL *stop) {
